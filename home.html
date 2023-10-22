@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon_ZRH_icon.ico" />
+    <title>Hospital System</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Custom styles */
+        body {
+            padding-top: 60px;
+        }
+
+        .jumbotron {
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+
+        .navbar .nav-link.sign-in {
+            background-color: #17a2b8;
+            color: #fff;
+        }
+
+        .navbar .nav-link.sign-in:hover {
+            background-color: #138496;
+        }
+
+        .section-heading {
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            margin-bottom: 40px;
+        }
+
+        /* Custom image styles */
+        .feature-image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Hospital System</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link sign-in" href="#">Sign In</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron" id="home">
+            <h1 class="display-4">Welcome to our Hospital System</h1>
+            <p class="lead">Providing quality healthcare services for our community.</p>
+            <hr class="my-4">
+            <p>Learn more about our services and how we can help you.</p>
+            <a class="btn btn-primary btn-lg" href="#services" role="button">Learn More</a>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="section-heading" id="services">Services</h2>
+                <p class="section-content">We offer a wide range of medical services to meet the needs of our patients.
+                    From routine check-ups to specialized treatments, our experienced healthcare professionals are
+                    dedicated to providing exceptional care.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="feature-image" src="services.png" alt="Services Image">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-6">
+                <img class="feature-image" src="about us.jpg" alt="About Us Image" width="450" height="450">
+            </div>
+            <div class="col-md-6">
+                <h2 class="section-heading" id="about">About Us</h2>
+                <p class="section-content">Our hospital is committed to delivering high-quality healthcare with
+                    compassion and integrity. With state-of-the-art facilities and a team of skilled medical
+                    professionals, we strive to improve the health and well-being of our patients.</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-heading">Our Team</h2>
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="doctor1.jpg" class="card-img-top" alt="Doctor 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr. John Smith</h5>
+                            <p class="card-text">Specialist in Internal Medicine</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="doctor2.jpg" class="card-img-top" alt="Doctor 2" height="370">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr. Emily Johnson</h5>
+                            <p class="card-text">Pediatrician</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="doctor3.jpg" class="card-img-top" alt="Doctor 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr. Sarah Davis</h5>
+                            <p class="card-text">Surgeon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-heading">Testimonials</h2>
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"I had a fantastic experience at this hospital. The staff was very
+                                friendly, and the doctors were highly skilled. I highly recommend their services!"</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"The care I received here was outstanding. The hospital is clean and
+                                modern, and the medical team is top-notch. I couldn't be happier with my treatment."</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"This hospital exceeded my expectations. The doctors and nurses are
+                                caring, and the facilities are excellent. I'm grateful for their support during my
+                                recovery."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <h2 class="section-heading" id="contact">Contact Us</h2>
+        <p class="section-content">For inquiries or to schedule an appointment, please contact our hospital using the
+            information below:</p>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Location</h4>
+                <p>123 Hospital Street</p>
+                <p>City, State, ZIP</p>
+            </div>
+            <div class="col-md-6">
+                <h4>Contact Information</h4>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: info@example.com</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2023 Hospital System</p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
